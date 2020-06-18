@@ -1,0 +1,146 @@
+/*
+  I use the below stylesheet to control how the page looks and reacts. 
+*/
+
+body
+{
+  background-color: #C6C6C6;
+}
+
+footer, #navRow
+{
+  background-color: #333;
+}
+
+tr:nth-child(odd), .item:nth-child(odd)
+{
+  background-color: #929292;
+}
+
+table
+{
+  border-style: solid;
+  border-color: black;
+}
+
+#editEventForm input, #editEventForm textarea, #editEventForm label, #editEventForm select
+{
+  margin-bottom: 20px;
+  text-align: left;
+  width: 50%;
+}
+
+#editEventForm label
+{
+  float: left;
+  width: 6em;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+#textAreaCenter *
+{
+  vertical-align: middle;
+}
+
+#bookEvents, #rotatedOffer, #exclusiveOffer
+{
+  border-style: solid;
+  border-width: 4px;
+  width: 55%;
+}
+
+.item
+{
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+#offerBlock
+{
+  width: 40%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  background-color: grey;
+}
+
+#firstBlock
+{
+
+  width: 60%;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#imageSection
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.eventImages
+{
+  width: 260px;
+  height: 160px;
+  padding: 1px;
+}
+
+#mainBlock
+{
+  display: flex;
+  flex-direction: row;
+}
+
+tr:nth-child(even), .item:nth-child(even)
+{
+  background-color: #EEEEEE;
+}
+
+main, #bookEvents, #collection, #checkCost, #makeBooking
+{
+  margin-top: 1em;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.container
+{
+  top: 1em;
+  right: 1em;
+  position: absolute;
+}
+
+h1
+{
+  left: 3em;
+}
+
+#navRow {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 2em;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
